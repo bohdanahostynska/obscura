@@ -34,9 +34,14 @@ button{
     border: none;
 }
 
+.wrapper{
+    overflow:hidden;
+}
+
 .container{
     width:1440px;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 
@@ -557,3 +562,162 @@ flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and(max-width:550px){
+    .footer{
+        padding:101px 0 46px;
+    }
+    .gallery__item{
+        height:276px;
+        width:50%;
+        overflow: hidden;
+    }
+    .gallery__item:nth-child(n+5){
+        display: none;
+    }
+
+    .form .container{
+        padding: 120px 0;
+    }
+
+    .form__content{
+        padding: 32px 50px 58px;
+    }
+
+    .plan__list{
+        flex-wrap: wrap;
+        border: 1px solid #fff;
+    }
+
+    .plan__item{
+        width:100%;
+        padding: 17px 28px 15px;
+    }
+
+   .plan__item:first-child{
+    border-left: none;
+    border-bottom: 1px solid #fff;
+   }
+
+   .plan__item:last-child{
+    border-right: none;
+   }
+
+   .plan__item:nth-child(2){
+    border-right: none;
+    border-bottom: 1px solid #fff;
+   }
+
+   .plan__item-title{
+    font-size: 28px;
+   }
+
+   .plan__item-name{
+    line-height: 50px;
+   }
+
+   .plan__item-cost{
+    text-align: left;
+   }
+
+   .plan__item-button{
+    display: none;
+   }
+
+   .plan__item-title{
+   font-size: 38px;
+   }
+   .plan{
+    padding: 100px 0 105px;
+   }
+   .statistics__list{
+    flex-direction: column;
+   }
+
+   .statistics__item{
+    margin-right: 0;
+    margin-bottom: 45px;
+   }
+
+   .statistics__item:last-child{
+    margin-bottom: 0;
+   }
+
+   .statistics__value{
+    font-size: 50px;
+   }
+
+   .statistics{
+    padding: 50px 0 60px;
+   }
+
+   .feedback__buttons{
+    padding: 0 45px;
+   }
+
+   .feedback__item{
+    max-width: 100%;
+   }
+
+   .portfolio__buttons{
+    padding: 0 45px;
+   }
+
+   .portfolio__item{
+
+   }
+
+   .portfolio__title{
+    font-size: 38px;
+   }
+
+   .about-me__section-title{
+    font-size: 90px;
+    top:84px;
+   }
+   
+   .avatar{
+    width:200px;
+    height:200px;
+   }
+
+   .avatar--60{
+    height: 60px;
+    width: 60px;
+   }
+
+   .preview .container{
+      flex-direction: column;
+   }
+
+    .preview__right{
+    height:800px;
+    }
+
+    .preview__left{
+        padding-top: 41px;
+        padding-left: 51px;
+        padding-bottom: 27px;
+    }
+
+    .preview__title{
+        font-style: 38px;
+        font-weight: 700;
+    }
+
+    .preview__img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .header{
+        margin-bottom: 58px;
+    }
+
+    .feedback__item{
+        width:353px;
+        flex-shrink: 0;
+    }
+}
+
