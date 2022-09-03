@@ -284,16 +284,6 @@ button{
     text-align: right;
 }
 
-
-@media screen and(max-width:768px){
-
-
-}
-
-@media screen and(max-width:480pc){
-
-}
-
 .form{
     background-color: #0f0909;
 }
@@ -572,7 +562,7 @@ flex-wrap: wrap;
         width:50%;
         overflow: hidden;
     }
-    .gallery__item:nth-child(n+5){
+    .gallery__item:nth-child(n+ 5){
         display: none;
     }
 

@@ -1,9 +1,9 @@
-const slider=$(".feedback__list").bxSlider({
-    pager:false,
-    controls:false,
-    infiniteLoop:true,
-    touchEnabled:true,
-    hideControlOnEnd:false,
+const slider = $(".feedback__list").bxSlider({
+    pager: false,
+    controls: false,
+    infiniteLoop: true,
+    touchEnabled: true,
+    hideControlOnEnd: false,
 });
 
 $(".button--prev").click((e)=> {
@@ -24,12 +24,12 @@ const portfolio =$(".portfolio__list").bxSlider({
     hideControlOnEnd:false,
 });
 
-$(".button--portfolio-prev").click((e)=> {
+$(".button--portfolio-prev").click((e)=>{
     e.preventDefault();
     portfolio.goToPrevSlide();
 });
 
-$(".button--portfolio-next").click((e)=> {
+$(".button--portfolio-next").click((e)=>{
     e.preventDefault();
     portfolio.goToNextSlide();
 });
