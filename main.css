@@ -388,6 +388,12 @@ flex-wrap: wrap;
     margin-bottom:31px;
 }
 
+.socials-item{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
 .footer__socials{
     margin-bottom:30px;
 }
@@ -402,6 +408,8 @@ flex-wrap: wrap;
     letter-spacing: 1.18182px;
     text-transform: uppercase;
 }
+
+
 
 .menu__list{
     display: flex;
@@ -577,6 +585,8 @@ flex-wrap: wrap;
     .plan__list{
         flex-wrap: wrap;
         border: 1px solid #fff;
+        display:flex;
+        flex-direction: column;
     }
 
     .plan__item{
@@ -677,6 +687,7 @@ flex-wrap: wrap;
    }
 
    .preview .container{
+      display: flex;
       flex-direction: column;
    }
 
