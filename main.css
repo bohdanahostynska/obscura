@@ -585,8 +585,6 @@ flex-wrap: wrap;
     .plan__list{
         flex-wrap: wrap;
         border: 1px solid #fff;
-        display:flex;
-        flex-direction: column;
     }
 
     .plan__item{
